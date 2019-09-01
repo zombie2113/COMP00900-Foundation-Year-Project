@@ -1,0 +1,2 @@
+# COMP00900-Foundation-Year-Project
+This was a group project completed at the University of Manchester by myself and three other group members of mine. The aim of the project was to create a basic website using HTML, CSS and some optional JavaScript relaying information about the University of Manchester, school of computer science, the skills we learned throughout this project and a short page describing each group member.
