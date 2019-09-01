@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<link href="index.css" rel="stylesheet" type="text/css"/>
+<!-- Social Icons and Search Bar -->
+	<img src = "UOM_Logo.png" style="width:177px;height:90px;">
+	<form method= "get" action = "http://google.com/search">
+	<input type="text" name="q" class="search" placeholder="Search Google">
+	<input type="submit" class="submit" value="Search">
+	
+<gcse:search></gcse:search>
+	
+	<br><a class = "website" href = "http://syllabus.cs.manchester.ac.uk/ugt/2018/COMP00900/">
+	<img src = "Website.png" class= "website" style="width:41px;height:41px;"></a>
+	<a class = "CS" href = "http://www.cs.manchester.ac.uk"><img src = "CS.jpg" class= "CS" style="width:41px;height:41px;"></a>
+	<a class = "email" href= "mailto:dirk.koch@manchester.ac.uk"><img src = "Email.png" class= "email" style="width:41px;height:41px;"></a>
+	</br>
+	</form>	
+
+	<style>
+	a:hover, a:active {
+				background-color: black;
+					}
+	</style>
+<!-- Navigation Bar -->	
+	<ul class = "navigation">
+		<li class = "li"><a class = "nav" href="index.html">Home</a></li>
+		<li class = "li"><a class = "nav" href="Markup and Scripting Languages.html">Markup and Scripting</a></li>
+		<li class = "li"><a class = "nav" href="Technologies Used for the Website.html">Technologies Used</a></li>
+		<li class = "li"><a class = "nav" href="About_the_University.html">About The School</a></li>
+		<li class = "li"><a class = "nav" href="About_Us.html">About Us</a></li>
+	</ul>
+<head>
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+<body onload="startTime()">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+ background:  url(https://cdn.hipwallpaper.com/i/10/88/KW3Scy.jpg) no-repeat center center fixed; background-size: cover; z-index:-1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    color: #ffffff;
+    font-family: Veranda;
+ text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: -600px;
+  left: 5%;
+}
+
+.top-left {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+}
+
+.top-right {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+
+.bottom-right{
+  position: absolute;
+  bottom: -600px;
+  right: 5%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+text-align: left;
+}
+.HTML-image{
+position: absolute;
+ top: 250px;
+  right: 600px;
+}
+
+</style>
+
+
+<title>Hypertext Markup Language (HTML)</title>
+</head>
+<body>
+<br> <br> <br>
+<h2>Hypertext Markup Language (HTML)</h2>
+ <div class="container">
+
+ <div class="top-right" style="color:lightblue; font-size:25px;"> Computer Science 13<br />Group 13<div id="txt"></div></div>
+ <div class="centered"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br><i> <strong>Definition:</strong>  HTML stands for Hypertext Markup Language,  a foundational coding language used for building web pages.</i>
+<br /><br />
+<strong>  Basic Elements in HTML :</strong>
+<ol>
+<li>< p >- -paragraph</li>
+<li>< h >- -heading</li>
+<li>< br / >- -start new line</li>
+<li>< title >- -define document title</li>
+<li>< hr / >- -horizontal line</li>
+<li>< strong >- -display bold font</li>
+<li>< i >- -italic font style</li>
+<li>< q >- -inline quotation</li><li>
+< li >- -list</li>
+</ol>
+&nbsp;&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2012/04/HTML-Elements1.png" ><br /><br>
+&nbsp;Although additional programming languages and techniques are required to achieve results beyond &nbspstatic web pages (features like animated graphics, interactive forms, and photo slideshows), but no &nbspmatter what HTML is a key, foundational step in web development.
+</div>
+<div class="bottom-right"> <img src="http://www.quickmeme.com/img/ae/ae05b7a67811c6e44f00f19aaf2a20b211e1b780c788b6d9e832a333fe962c32.jpg" width="300" height="400"></div>
+</div>
+<div class="HTML-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="200" height="200"></div>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+
+</body>
+
+<footer>
+<img src = "UOM_Logo.png" style="width:177px;height:90px;float:left;margin-left:10px;">
+<p class = "p">Copyright The University of Manchester</p>
+</footer>
+
+</html>
